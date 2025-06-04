@@ -28,10 +28,10 @@ MAC: 02:42:c6:0a:00:03               |                            MAC eth0: 02:4
 
 ## Prerequisites
 Linux based system
-
-            apt-get update
-            apt-get install docker
-            apt-get install docker-compose
+Install docker and docker-compose:
+```
+apt-get install docker docker-compose
+```
 
 ## How to run
 
