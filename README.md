@@ -52,15 +52,14 @@ Run the spoofing script in a middle bash
 ### Clear the iptables for server and router containers 
 
 In separate terminals:
-
-    docker-compose exec server bash
-    ip -s -s neigh flush all
-
-
-
-    docker-compose exec router bash
-    ip -s -s neigh flush all
-
+```
+docker-compose exec server bash
+ip -s -s neigh flush all
+```
+```
+docker-compose exec router bash
+ip -s -s neigh flush all
+```
 
 ## Testing
 
